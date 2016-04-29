@@ -1,0 +1,11 @@
+fonts-source-code-pro (2.010R-ro-1.030R-it-0local1) unstable; urgency=low
+
+  * Initial "local" package -- not uploaded to Debian as it is not
+    entirely clear what the copyright situation for the toolchain is
+    
+  * Packaging based on
+     - package fonts-inconsolata (001.010-3)
+     - https://gist.github.com/lucasdavila/3875946
+    with thanks to both
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Thu, 28 Apr 2016 19:26:49 -0500

@@ -1,0 +1,28 @@
+Source: fonts-source-code-pro
+Section: fonts
+Priority: optional
+Maintainer: Dirk Eddelbuettel <edd@debian.org>
+Build-Depends: debhelper (>= 9~), wget
+Standards-Version: 3.9.5
+Homepage: https://github.com/adobe-fonts/source-code-pro
+
+Package: fonts-source-code-pro
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: Monospaced font family for user interface and coding environments 
+ Source Code Pro is a set of OpenType fonts that have been designed to
+ work well in user interface (UI) environments. In addition to a
+ functional OpenType font, this open source project provides all of
+ the source files that were used to build this OpenType font by using
+ the AFDKO makeotf tool.
+ .
+ http://adobe-fonts.github.io/source-code-pro/
+ .
+ The packaging is informal. I do not plan to upload this to Debian as
+ I am unsure about the copyright status of the toolchain. The
+ packaging also a somewhat hackish shortcut by extracting the files
+ from the released file obtained from the github repo.
+ .
+ I would be happy for another maintainer (or the fonts team) to take
+ it over as well.
