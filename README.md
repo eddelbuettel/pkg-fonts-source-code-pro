@@ -1,6 +1,6 @@
 ## pkg-fonts-source-code-pro
 
-_Inofficial_ [Debian](http://www.debian.org) packaging for Adobe
+_Unofficial_ [Debian](http://www.debian.org) packaging for Adobe
 [Source Code Pro](http://adobe-fonts.github.io/source-code-pro/) fonts
 
 ### About
@@ -10,7 +10,7 @@ for [Source Code Pro](http://adobe-fonts.github.io/source-code-pro/).
 
 ### Installation
 
-After clone the repository run
+After cloning the repository run
 
 ```
 dpkg-buildpackage -rfakeroot -us -uc -tc
