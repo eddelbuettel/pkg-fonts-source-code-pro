@@ -1,3 +1,10 @@
+fonts-source-code-pro (2.010R-ro-1.030R-it-0local2) unstable; urgency=medium
+
+  * debian/rules: Infer ${outname} using basename(1)
+  * debian/postinst: Not needed, fontconfig framework has got this
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Fri, 29 Apr 2016 08:54:02 -0500
+
 fonts-source-code-pro (2.010R-ro-1.030R-it-0local1) unstable; urgency=low
 
   * Initial "local" package -- not uploaded to Debian as it is not

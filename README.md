@@ -18,7 +18,14 @@ dpkg-buildpackage -rfakeroot -us -uc -tc
 
 to create a Debian binary using the common _fake_ suid accessor, without
 signing changes or control file as we are not uploading anywhere, and
-cleaning up. 
+cleaning up.  More easily, just run
+
+```
+./runMe.sh
+```
+
+and either one of these two will create a `.deb` package containing the
+desired fonts.
 
 ### Status
 

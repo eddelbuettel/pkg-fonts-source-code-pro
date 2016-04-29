@@ -6,6 +6,10 @@
 ##
 ##     dpkg-buildpackage -rfakeroot -us -uc -tc
 ##
+## or just
+##
+##     runMe.sh
+##
 ## to have the package build using 'fake' suid, do not sign (as we're
 ## not uploading anywhere) and clean.
 ##
@@ -15,7 +19,7 @@
 
 ## check with https://github.com/adobe-fonts/source-code-pro/releases for version
 srcfile=https://github.com/adobe-fonts/source-code-pro/archive/2.010R-ro/1.030R-it.tar.gz
-outfile=1.030R-it.tar.gz
+outfile=$(shell basename ${srcfile})
 
 all:
 	test -f ${outfile} || wget ${srcfile} 
